@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from home.models import FavoriteCars
-from .serializers import FavoriteCarsSerializer
+from home.models import FavoriteCars,Favorites
+from .serializers import FavoriteCarsSerializer,FavoritesSerializer
 from rest_framework import authentication
 from rest_framework.authtoken.serializers import AuthTokenSerializer
 from rest_framework.viewsets import ModelViewSet, ViewSet
@@ -37,3 +37,8 @@ class FavoriteCarsViewSet(viewsets.ModelViewSet):
     serializer_class = FavoriteCarsSerializer
     authentication_classes = (authentication.SessionAuthentication, authentication.TokenAuthentication)
     queryset = FavoriteCars.objects.all()
+
+class FavoritesViewSet(viewsets.ModelViewSet):
+    serializer_class = FavoritesSerializer
+    authentication_classes = (authentication.SessionAuthentication, authentication.TokenAuthentication)
+    queryset = Favorites.objects.all()
