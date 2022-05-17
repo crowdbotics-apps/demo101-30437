@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1
   },
   container: { flex: 1, height: 100, padding: 13 },
-  text: { color: "black", fontSize: 20 },
+  text: { color: "black", fontSize: 25 },
   buttonPressed: { backgroundColor: "#08090e" },
   buttonNotPressed: { backgroundColor: "#2fff00" },
   button: { borderRadius: 4, padding: 15, marginTop: 10 },
@@ -21,7 +21,7 @@ export const globalOptions = {
 
 export const modulesOptions = {
   "@modules/app-menu": {
-    title: "App Menu",
+    title: "Test Menu",
     copy: "Routes available",
     styles: styles
   }
