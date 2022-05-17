@@ -5,13 +5,14 @@ const styles = StyleSheet.create({
     borderBottomColor: "black",
     borderBottomWidth: 1
   },
-  container: { flex: 1, height: 22, padding: 13 },
+  container: { flex: 1, height: 100, padding: 13 },
   text: { color: "black", fontSize: 20 },
   buttonPressed: { backgroundColor: "aquamarine" },
   buttonNotPressed: { backgroundColor: "blue" },
   button: { borderRadius: 4, padding: 15, marginTop: 10 },
   buttonText: { color: "white", textAlign: "center", fontSize: 16 }
 })
+
 export const globalOptions = {
   name: "demo101_30437Identifier",
   url: "https://demo101_30437Identifier.botics.co",
