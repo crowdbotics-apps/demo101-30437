@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
   container: { flex: 1, height: 100, padding: 13 },
   text: { color: "black", fontSize: 20 },
   buttonPressed: { backgroundColor: "aquamarine" },
-  buttonNotPressed: { backgroundColor: "blue" },
+  buttonNotPressed: { backgroundColor: "#2fff00" },
   button: { borderRadius: 4, padding: 15, marginTop: 10 },
   buttonText: { color: "white", textAlign: "center", fontSize: 16 }
 })
