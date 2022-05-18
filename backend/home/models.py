@@ -10,3 +10,8 @@ class Favorites(models.Model):
     websiteName = models.CharField(max_length=256,)
     url = models.CharField(max_length=256,)
     timesVisited = models.BigIntegerField()
+class TomTest(models.Model):
+    'Generated Model'
+    iD = models.BigIntegerField()
+    name = models.CharField(max_length=256,)
+    lastname = models.CharField(max_length=256,)
