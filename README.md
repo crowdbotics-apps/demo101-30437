@@ -60,7 +60,6 @@ This section will show any installed modules you add from the Storyboard Modules
 - [privacy-policy]()
 - [react-native-app-menu](modules/app-menu)
 - [react-native-maps](modules/maps)
-- [react-native-articles](modules/articles)
 
 # Getting started: Frontend
 
