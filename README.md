@@ -58,7 +58,6 @@ This section will show any installed modules you add from the Storyboard Modules
 - [react-native-login](modules/login)
 - [privacy-policy]()
 - [react-native-app-menu](modules/app-menu)
-- [django-articles](backend/modules)
 
 # Getting started: Frontend
 
