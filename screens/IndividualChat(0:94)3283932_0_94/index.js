@@ -25,191 +25,185 @@ export class Blank extends React.Component {
 
     this.state = {}
   }
-  render = () => (
-    <ScrollView
-      contentContainerStyle={{ flexGrow: 1 }}
-      style={styles.ScrollView_1}
-    >
-      <View style={styles.View_2} />
-      <View style={styles.View_0_95} />
-      <View style={styles.View_0_792}>
-        <View style={styles.View_0_814}>
-          <View style={styles.View_0_815} />
-        </View>
-        <View style={styles.View_0_816}>
-          <View style={styles.View_0_817}>
-            <Text style={styles.Text_0_817}>James</Text>
+  render() {
+    return (
+      <ScrollView
+        contentContainerStyle={{ flexGrow: 1 }}
+        style={styles.ScrollView_1}
+      >
+        <View style={styles.View_2} />
+        <View style={styles.View_0_95} />
+        <View style={styles.View_0_792}>
+          <View style={styles.View_0_814}>
+            <View style={styles.View_0_815} />
           </View>
-        </View>
-        <View style={styles.View_0_818}>
-          <View style={styles.View_0_819} />
-          <View style={styles.View_0_820}>
-            <Text style={styles.Text_0_820}> </Text>
-          </View>
-          <ImageBackground
-            source={{
-              uri:
-                "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0838c72f-d3a6-4bd4-ba52-39194fd52b5f"
-            }}
-            style={styles.ImageBackground_0_821}
-          />
-        </View>
-      </View>
-      <ImageBackground
-        source={{
-          uri:
-            "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/bf4eea45-853f-4170-a542-8809ff5c4d8e"
-        }}
-        style={styles.ImageBackground_0_786}
-      />
-      <ImageBackground
-        source={{
-          uri:
-            "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/858eaa0d-c7bf-4367-a048-7cb44d85295a"
-        }}
-        style={styles.ImageBackground_0_787}
-      />
-      <View style={styles.View_0_788} />
-      <View style={styles.View_0_790}>
-        <Text style={styles.Text_0_790}>
-          Really love your most recent photo. I’ve been trying to capture the
-          same thing for a few months and would love some tips!
-        </Text>
-      </View>
-      <ImageBackground
-        source={{
-          uri:
-            "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/53191377-13e1-4707-a0c0-1bfed5ba7549"
-        }}
-        style={styles.ImageBackground_0_822}
-      />
-      <View style={styles.View_0_823} />
-      <View style={styles.View_0_824}>
-        <Text style={styles.Text_0_824}>Thank you! That was very helpful!</Text>
-      </View>
-      <View style={styles.View_0_789} />
-      <View style={styles.View_0_791}>
-        <Text style={styles.Text_0_791}>
-          A fast 50mm like f1.8 would help with the bokeh. I’ve been using
-          primes as they tend to get a bit sharper images.
-        </Text>
-      </View>
-      <View style={styles.View_0_785}>
-        <View style={styles.View_I0_785_0_588}>
-          <View style={styles.View_I0_785_0_590} />
-          <TouchableOpacity
-            style={styles.TouchableOpacity_I0_785_0_594}
-            onPress={() =>
-              this.props.navigation.navigate(getNavigationScreen("0_78"))
-            }
-          >
-            <View style={styles.View_I0_785_0_593}>
-              <View style={styles.View_I0_785_0_595} />
-              <View style={styles.View_I0_785_0_596} />
-              <View style={styles.View_I0_785_0_597} />
-              <View style={styles.View_I0_785_0_598}>
-                <View style={styles.View_I0_785_0_599} />
-                <View style={styles.View_I0_785_0_600} />
-              </View>
-              <View style={styles.View_I0_785_0_601} />
-              <View style={styles.View_I0_785_0_602} />
-              <View style={styles.View_I0_785_0_603} />
+          <View style={styles.View_0_816}>
+            <View style={styles.View_0_817}>
+              <Text style={styles.Text_0_817}>James</Text>
             </View>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.TouchableOpacity_I0_785_0_660}
-            onPress={() =>
-              this.props.navigation.navigate(getNavigationScreen("0_90"))
-            }
-          >
+          </View>
+          <View style={styles.View_0_818}>
+            <View style={styles.View_0_819} />
+            <View style={styles.View_0_820}>
+              <Text style={styles.Text_0_820}> </Text>
+            </View>
             <ImageBackground
               source={{
-                uri:
-                  "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8c9ba8af-9725-4eac-a831-04de9e2191a8"
+                uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0838c72f-d3a6-4bd4-ba52-39194fd52b5f"
               }}
-              style={styles.ImageBackground_I0_785_0_662}
+              style={styles.ImageBackground_0_821}
             />
-          </TouchableOpacity>
-          <View style={styles.View_I0_785_0_671}>
-            <View style={styles.View_I0_785_0_675} />
-            <View style={styles.View_I0_785_0_672}>
-              <View style={styles.View_I0_785_0_673} />
-              <View style={styles.View_I0_785_0_674} />
-            </View>
           </View>
-          <TouchableOpacity
-            style={styles.TouchableOpacity_I0_785_0_626}
-            onPress={() =>
-              this.props.navigation.navigate(getNavigationScreen("0_627"))
-            }
-          >
-            <View style={styles.View_I0_785_0_628}>
+        </View>
+        <ImageBackground
+          source={{
+            uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/bf4eea45-853f-4170-a542-8809ff5c4d8e"
+          }}
+          style={styles.ImageBackground_0_786}
+        />
+        <ImageBackground
+          source={{
+            uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/858eaa0d-c7bf-4367-a048-7cb44d85295a"
+          }}
+          style={styles.ImageBackground_0_787}
+        />
+        <View style={styles.View_0_788} />
+        <View style={styles.View_0_790}>
+          <Text style={styles.Text_0_790}>
+            Really love your most recent photo. I’ve been trying to capture the
+            same thing for a few months and would love some tips!
+          </Text>
+        </View>
+        <ImageBackground
+          source={{
+            uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/53191377-13e1-4707-a0c0-1bfed5ba7549"
+          }}
+          style={styles.ImageBackground_0_822}
+        />
+        <View style={styles.View_0_823} />
+        <View style={styles.View_0_824}>
+          <Text style={styles.Text_0_824}>
+            Thank you! That was very helpful!
+          </Text>
+        </View>
+        <View style={styles.View_0_789} />
+        <View style={styles.View_0_791}>
+          <Text style={styles.Text_0_791}>
+            A fast 50mm like f1.8 would help with the bokeh. I’ve been using
+            primes as they tend to get a bit sharper images.
+          </Text>
+        </View>
+        <View style={styles.View_0_785}>
+          <View style={styles.View_I0_785_0_588}>
+            <View style={styles.View_I0_785_0_590} />
+            <TouchableOpacity
+              style={styles.TouchableOpacity_I0_785_0_594}
+              onPress={() =>
+                this.props.navigation.navigate(getNavigationScreen("0_78"))
+              }
+            >
+              <View style={styles.View_I0_785_0_593}>
+                <View style={styles.View_I0_785_0_595} />
+                <View style={styles.View_I0_785_0_596} />
+                <View style={styles.View_I0_785_0_597} />
+                <View style={styles.View_I0_785_0_598}>
+                  <View style={styles.View_I0_785_0_599} />
+                  <View style={styles.View_I0_785_0_600} />
+                </View>
+                <View style={styles.View_I0_785_0_601} />
+                <View style={styles.View_I0_785_0_602} />
+                <View style={styles.View_I0_785_0_603} />
+              </View>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.TouchableOpacity_I0_785_0_660}
+              onPress={() =>
+                this.props.navigation.navigate(getNavigationScreen("0_90"))
+              }
+            >
               <ImageBackground
                 source={{
-                  uri:
-                    "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/45aa3470-9b09-4883-8641-802b6d3fde45"
+                  uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8c9ba8af-9725-4eac-a831-04de9e2191a8"
                 }}
-                style={styles.ImageBackground_I0_785_0_630}
+                style={styles.ImageBackground_I0_785_0_662}
+              />
+            </TouchableOpacity>
+            <View style={styles.View_I0_785_0_671}>
+              <View style={styles.View_I0_785_0_675} />
+              <View style={styles.View_I0_785_0_672}>
+                <View style={styles.View_I0_785_0_673} />
+                <View style={styles.View_I0_785_0_674} />
+              </View>
+            </View>
+            <TouchableOpacity
+              style={styles.TouchableOpacity_I0_785_0_626}
+              onPress={() =>
+                this.props.navigation.navigate(getNavigationScreen("0_627"))
+              }
+            >
+              <View style={styles.View_I0_785_0_628}>
+                <ImageBackground
+                  source={{
+                    uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/45aa3470-9b09-4883-8641-802b6d3fde45"
+                  }}
+                  style={styles.ImageBackground_I0_785_0_630}
+                />
+              </View>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.TouchableOpacity_I0_785_0_666}
+              onPress={() =>
+                this.props.navigation.navigate(getNavigationScreen("0_88"))
+              }
+            >
+              <ImageBackground
+                source={{
+                  uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9afabd24-a5cd-42b0-8575-e85d93791638"
+                }}
+                style={styles.ImageBackground_I0_785_0_747}
+              />
+            </TouchableOpacity>
+          </View>
+          <View style={styles.View_I0_785_0_591} />
+        </View>
+        <View style={styles.View_0_780}>
+          <View style={styles.View_I0_780_0_49}>
+            <View style={styles.View_I0_780_0_51}>
+              <View style={styles.View_I0_780_0_52} />
+              <ImageBackground
+                source={{
+                  uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/e127b8dc-a424-46a6-9e42-6e11076f450b"
+                }}
+                style={styles.ImageBackground_I0_780_0_53}
+              />
+              <View style={styles.View_I0_780_0_54} />
+            </View>
+            <View style={styles.View_I0_780_0_55}>
+              <ImageBackground
+                source={{
+                  uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a1156c05-86bd-4e5a-aa4c-93f7d1c1a32d"
+                }}
+                style={styles.ImageBackground_I0_780_0_56}
               />
             </View>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.TouchableOpacity_I0_785_0_666}
-            onPress={() =>
-              this.props.navigation.navigate(getNavigationScreen("0_88"))
-            }
-          >
-            <ImageBackground
-              source={{
-                uri:
-                  "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9afabd24-a5cd-42b0-8575-e85d93791638"
-              }}
-              style={styles.ImageBackground_I0_785_0_747}
-            />
-          </TouchableOpacity>
-        </View>
-        <View style={styles.View_I0_785_0_591} />
-      </View>
-      <View style={styles.View_0_780}>
-        <View style={styles.View_I0_780_0_49}>
-          <View style={styles.View_I0_780_0_51}>
-            <View style={styles.View_I0_780_0_52} />
-            <ImageBackground
-              source={{
-                uri:
-                  "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/e127b8dc-a424-46a6-9e42-6e11076f450b"
-              }}
-              style={styles.ImageBackground_I0_780_0_53}
-            />
-            <View style={styles.View_I0_780_0_54} />
+            <View style={styles.View_I0_780_0_60}>
+              <ImageBackground
+                source={{
+                  uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4e37590c-52bd-45e1-8b8d-205c8c24ac50"
+                }}
+                style={styles.ImageBackground_I0_780_0_61}
+              />
+            </View>
           </View>
-          <View style={styles.View_I0_780_0_55}>
-            <ImageBackground
-              source={{
-                uri:
-                  "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a1156c05-86bd-4e5a-aa4c-93f7d1c1a32d"
-              }}
-              style={styles.ImageBackground_I0_780_0_56}
-            />
-          </View>
-          <View style={styles.View_I0_780_0_60}>
-            <ImageBackground
-              source={{
-                uri:
-                  "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4e37590c-52bd-45e1-8b8d-205c8c24ac50"
-              }}
-              style={styles.ImageBackground_I0_780_0_61}
-            />
+          <View style={styles.View_I0_780_0_66}>
+            <View style={styles.View_I0_780_0_67}>
+              <Text style={styles.Text_I0_780_0_67}>9:27</Text>
+            </View>
           </View>
         </View>
-        <View style={styles.View_I0_780_0_66}>
-          <View style={styles.View_I0_780_0_67}>
-            <Text style={styles.Text_I0_780_0_67}>9:27</Text>
-          </View>
-        </View>
-      </View>
-    </ScrollView>
-  )
+      </ScrollView>
+    )
+  }
 }
 
 const styles = StyleSheet.create({
